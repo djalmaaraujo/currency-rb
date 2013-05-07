@@ -1,3 +1,5 @@
+require_relative '../lib/currency'
+
 describe Currency do
   before :each do
     @currency = Currency.new :BRL, :USD, 4
