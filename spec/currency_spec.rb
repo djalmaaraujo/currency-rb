@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Currency do
   before :each do
     @currency = Currency.new :BRL, :USD, 4
